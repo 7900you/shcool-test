@@ -1,5 +1,5 @@
 <template>
-  <div class="common-layout">
+    <div class="common-layout">
         <el-container>
             <el-aside width="200px">
                 <!-- 左侧菜单 -->
@@ -19,10 +19,7 @@
                         </el-icon>
                         <span>首页</span>
                     </el-menu-item>
-
-
                 </el-menu>
-
             </el-aside>
             <el-main>
                 <!-- 页面内容 -->
@@ -35,17 +32,19 @@
 <script>
 import logo from '../components/logo.vue'
 export default {
-  name: 'HomeView',
-components: {
-    logo
-  },
+    name: 'HomeView',
+    components: {
+        logo
+    },
 }
 </script>
 <style>
 body {
     margin: 0;
 }
+
 .el-menu-vertical-demo {
     /* vh表示视口高度 */
     height: 100vh;
-}</style>
+}
+</style>
