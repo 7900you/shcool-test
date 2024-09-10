@@ -8,10 +8,9 @@
                     <logo></logo>
                     <!-- el-menu-item表示只有一级菜单 -->
                     <el-menu-item index="/index">
-                        <el-icon>
-                            <HomeFilled />
+                        <el-icon class="iconfont icon-home-4--home-house-roof-shelter">
                         </el-icon>
-                        <span>首页</span>
+                        <span >首页</span>
                     </el-menu-item>
                     <el-menu-item index="/">
                         <el-icon>
@@ -40,11 +39,16 @@ export default {
 </script>
 <style>
 body {
+    
     margin: 0;
+}
+.el-main{
+    padding: 0px;
 }
 
 .el-menu-vertical-demo {
     /* vh表示视口高度 */
     height: 100vh;
+    border: 0px;
 }
 </style>

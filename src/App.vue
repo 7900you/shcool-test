@@ -5,6 +5,9 @@
 </template>
 
 <style lang="less">
+body{
+  padding: 0px !important;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

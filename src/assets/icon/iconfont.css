@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4678583 */
+  src: url('iconfont.woff2?t=1725866876395') format('woff'),
+       url('iconfont.woff?t=1725866876395') format('woff'),
+       url('iconfont.ttf?t=1725866876395') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heimingdanguanli:before {
+  content: "\e651";
+}
+
+.icon-ruanjianfuwu:before {
+  content: "\e62d";
+}
+
+.icon-wangzhi:before {
+  content: "\e62b";
+}
+
+.icon-heimingdan:before {
+  content: "\e7bf";
+}
+
+.icon-guzhangshangbao_:before {
+  content: "\e63c";
+}
+
+.icon-xuesheng:before {
+  content: "\e61a";
+}
+
+.icon-computer:before {
+  content: "\e6bf";
+}
+
+.icon-jiaoshi:before {
+  content: "\e658";
+}
+
+.icon-kaoshi:before {
+  content: "\e62f";
+}
+
+.icon-shop:before {
+  content: "\ea02";
+}
+
+.icon-geli:before {
+  content: "\e6e9";
+}
+
+.icon-jinru:before {
+  content: "\e621";
+}
+
+.icon-add-1--expand-cross-buttons-button-more-remove-plu:before {
+  content: "\e72d";
+}
+
+.icon-add-circle--button-remove-cross-add-buttons-plus-c:before {
+  content: "\e72e";
+}
+
+.icon-add-square--square-remove-cross-buttons-add-plus-b:before {
+  content: "\e72f";
+}
+
+.icon-download-computer--action-actions-computer-desktop:before {
+  content: "\e739";
+}
+
+.icon-home-4--home-house-roof-shelter:before {
+  content: "\e73f";
+}
+
